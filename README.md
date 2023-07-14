@@ -18,6 +18,7 @@ The problem is that because of this serial number bug in the fulfillment data (L
 The Data Science team would like you to write a Glue job that does the following:
 
 - Sanitize the Customer data (Trusted Zone) and create a Glue Table (Curated Zone) that only includes customers who have accelerometer data and have agreed to share their data for research called customers_curated.
+
 Finally, you need to create two Glue Studio jobs that do the following tasks:
 
 - Read the Step Trainer IoT data stream (S3) and populate a Trusted Zone Glue Table called step_trainer_trusted that contains the Step Trainer Records data for customers who have accelerometer data and have agreed to share their data for research (customers_curated).
